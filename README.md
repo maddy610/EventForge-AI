@@ -88,7 +88,7 @@ Whether connected to the Google Gemini API or running in offline fallback mode u
 | **Code Quality** | Modular separation of UI and services; full type hints and docstrings; functions kept concise (<40 lines); named constants in `config.py`; structured `logging` instead of `print`. | `app.py`, `config.py`, `services/*.py` |
 | **Security** | Regex `sanitize_input()` strips `<script>` tags, `< >`, control chars, and SQL comment tokens while allowing Unicode (Tamil/Hindi) up to 100 chars; user inputs isolated inside `<USER_DATA>` tags out of `SYSTEM_INSTRUCTION`; strict Pydantic validation; `GOOGLE_API_KEY` read via `os.getenv` / `st.secrets`; zero `unsafe_allow_html`. | `services/validators.py`, `services/gemini_client.py`, `.gitignore`, `.env.example` |
 | **Efficiency** | `@st.cache_data(ttl=3600)` on `generate_event_plan`, `build_budget_dataframe`, and `compute_active_timeline` using hashable tuple inputs; single API call per plan with `response_mime_type="application/json"` and `response_schema=EventPlan`; timeout + 1 backoff retry. | `services/gemini_client.py`, `services/planner.py`, `config.py` |
-| **Testing** | 32 automated `pytest` tests using `unittest.mock.patch` for offline execution; covers `sanitize_input`, Pydantic models, budget normalization, timeline date math, exports, fallback templates, API retry/failure paths, and `AppTest` UI flows in both modes (98% coverage on `services/`). | `tests/conftest.py`, `tests/test_*.py`, `pytest.ini` |
+| **Testing** | 33 automated `pytest` tests using `unittest.mock.patch` for offline execution; covers `sanitize_input`, Pydantic models, budget normalization, timeline date math, exports, fallback templates, API retry/failure paths, and `AppTest` UI flows in both modes (96% coverage). | `tests/conftest.py`, `tests/test_*.py`, `pytest.ini` |
 | **Accessibility** | `st.set_page_config` called immediately after imports; descriptive labels and `help=` text on all widgets; Okabe-Ito colorblind-safe palette (`COLORBLIND_SAFE_PALETTE`); `st.caption()` + accessible `st.dataframe` beside charts; text priority indicators (`High`, `Medium`, `Low`); sidebar `"How to use"`. | `app.py`, `config.py` |
 | **Problem Statement Alignment** | Exact problem statement wording reused in UI heading and README; supports Wedding, Birthday, and Community Event workflows with INR budgets, T-minus timelines, persistent vendor checklists, theme ideas, 5x refinement cap, offline fallback, and CSV/MD/ICS exports. | `app.py`, `config.py`, `services/*.py`, `templates/*.json`, `README.md` |
 
@@ -120,7 +120,7 @@ cp .env.example .env
 Edit `.env`:
 ```env
 GOOGLE_API_KEY=your_actual_api_key_here
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.5-flash-lite
 ```
 
 ### 3. Run the Application
