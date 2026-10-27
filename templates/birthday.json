@@ -1,0 +1,166 @@
+{
+  "event_type": "Birthday",
+  "vibe_theme": "Vibrant Milestone Birthday Bash",
+  "total_budget": 100000.0,
+  "guest_count": 60,
+  "city": "Bengaluru",
+  "event_summary": "An energetic birthday celebration balanced across all age groups, featuring custom cake artistry, interactive entertainment, and themed dining.",
+  "budget_allocations": [
+    {
+      "category": "Venue & Themed Decor",
+      "allocated_amount": 30000.0,
+      "percentage": 30.0,
+      "notes": "Party hall booking, themed backdrop, balloon styling, and lighting."
+    },
+    {
+      "category": "Food, Beverages & Snack Stations",
+      "allocated_amount": 35000.0,
+      "percentage": 35.0,
+      "notes": "Age-group friendly appetizers, main buffet, and mocktail bar."
+    },
+    {
+      "category": "Custom Cake & Dessert Table",
+      "allocated_amount": 12000.0,
+      "percentage": 12.0,
+      "notes": "Custom tiered theme cake, cupcakes, and allergen-labeled treats."
+    },
+    {
+      "category": "Entertainment & Age-Group Activities",
+      "allocated_amount": 15000.0,
+      "percentage": 15.0,
+      "notes": "DJ/emcee, interactive games, and activity zone for all age groups."
+    },
+    {
+      "category": "Photography & Return Gifts",
+      "allocated_amount": 8000.0,
+      "percentage": 8.0,
+      "notes": "Event photographer and personalized party favors for guests."
+    }
+  ],
+  "timeline": [
+    {
+      "stage": "6 months out",
+      "days_before": 180,
+      "tasks": [
+        "Set overall birthday budget and choose the party theme and age-group focus.",
+        "Draft initial guest list across kids, teens, adults, and seniors."
+      ]
+    },
+    {
+      "stage": "3 months out",
+      "days_before": 90,
+      "tasks": [
+        "Reserve the party venue or rooftop space.",
+        "Shortlist cake artists and entertainment hosts."
+      ]
+    },
+    {
+      "stage": "1 month out",
+      "days_before": 30,
+      "tasks": [
+        "Book the custom cake baker with theme sketches and flavor choices.",
+        "Confirm DJ/emcee and age-appropriate game stations.",
+        "Send digital invitations with RSVP and dietary preference questions."
+      ]
+    },
+    {
+      "stage": "2 weeks out",
+      "days_before": 14,
+      "tasks": [
+        "Finalize catering menu including kid-friendly and vegetarian options.",
+        "Order themed decor props, signage, and return gift bags."
+      ]
+    },
+    {
+      "stage": "1 week out",
+      "days_before": 7,
+      "tasks": [
+        "Confirm final RSVP headcount with caterer and baker.",
+        "Prepare music playlist and game prizes.",
+        "Schedule delivery and setup windows with all vendors."
+      ]
+    },
+    {
+      "stage": "1 day out",
+      "days_before": 1,
+      "tasks": [
+        "Assemble return gift hampers and party props.",
+        "Reconfirm cake delivery time and refrigerated storage at the venue."
+      ]
+    },
+    {
+      "stage": "Event day",
+      "days_before": 0,
+      "tasks": [
+        "Complete venue decor setup and audio check 2 hours before guests arrive.",
+        "Receive and inspect the custom birthday cake and dessert table.",
+        "Host welcome activities, cake cutting ceremony, and group photos."
+      ]
+    }
+  ],
+  "vendor_checklist": [
+    {
+      "id": "bday_venue_decor",
+      "vendor_name": "Party Venue & Theme Stylist",
+      "category": "Venue & Decor",
+      "estimated_cost": 30000.0,
+      "priority": "High",
+      "notes": "Ensure step-free access and dedicated photo backdrop lighting."
+    },
+    {
+      "id": "bday_catering",
+      "vendor_name": "Interactive Buffet & Live Snack Caterer",
+      "category": "Catering",
+      "estimated_cost": 35000.0,
+      "priority": "High",
+      "notes": "Include finger foods for kids and clearly labeled allergen tags."
+    },
+    {
+      "id": "bday_cake",
+      "vendor_name": "Custom Theme Cake Studio",
+      "category": "Cake & Desserts",
+      "estimated_cost": 12000.0,
+      "priority": "High",
+      "notes": "Confirm eggless/nut-free options, candles, and cake knife set."
+    },
+    {
+      "id": "bday_entertainment",
+      "vendor_name": "Emcee, DJ & Game Coordinator",
+      "category": "Entertainment",
+      "estimated_cost": 15000.0,
+      "priority": "Medium",
+      "notes": "Plan inclusive games suitable for multiple age groups."
+    },
+    {
+      "id": "bday_photo_favors",
+      "vendor_name": "Event Photographer & Favor Supplier",
+      "category": "Photography & Favors",
+      "estimated_cost": 8000.0,
+      "priority": "Low",
+      "notes": "Capture candid moments and cake cutting highlights."
+    }
+  ],
+  "personalized_ideas": {
+    "decor": [
+      "Neon LED marquee sign with custom color-blocked balloon garland.",
+      "Themed tabletop centerpieces with milestone photo cards from past years.",
+      "Dedicated selfie wall with high-contrast props and ring lighting."
+    ],
+    "food": [
+      "Build-your-own slider, taco, and chaat station for all age groups.",
+      "Signature themed birthday cake paired with matching mini cupcakes.",
+      "Sparkling fruit coolers and custom mocktails with edible garnishes."
+    ],
+    "entertainment": [
+      "High-energy DJ set mixed with throwback hits for all generations.",
+      "Interactive trivia and rapid-fire bingo hosted by the emcee.",
+      "Instant polaroid keepsake corner for guests."
+    ],
+    "activities": [
+      "Time-capsule memory jar where guests drop wishes and predictions.",
+      "Multi-generational team scavenger hunt with themed prizes.",
+      "DIY craft or dessert-topping bar for younger guests."
+    ],
+    "invitation_wording": "Get ready to celebrate! Join us for an unforgettable birthday party filled with music, laughter, great food, and sweet memories."
+  }
+}

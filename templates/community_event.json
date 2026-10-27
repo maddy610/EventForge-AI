@@ -1,0 +1,170 @@
+{
+  "event_type": "Community Event",
+  "vibe_theme": "Inclusive Neighbourhood Cultural & Eco Fair",
+  "total_budget": 200000.0,
+  "guest_count": 300,
+  "city": "Mumbai",
+  "event_summary": "A community-first gathering organized around civic permits, volunteer coordination, sponsor booths, public safety, full accessibility, and zero-waste cleanup.",
+  "budget_allocations": [
+    {
+      "category": "Permits, Venue Grounds & Staging",
+      "allocated_amount": 50000.0,
+      "percentage": 25.0,
+      "notes": "Municipal ground booking, civic/sound permits, canopies, and stage."
+    },
+    {
+      "category": "Safety, First Aid & Accessibility",
+      "allocated_amount": 40000.0,
+      "percentage": 20.0,
+      "notes": "First-aid booth, fire extinguishers, wheelchair ramps, and clear signage."
+    },
+    {
+      "category": "Community Refreshments & Water Stations",
+      "allocated_amount": 46000.0,
+      "percentage": 23.0,
+      "notes": "Hygienic food stalls, drinking water dispensers, and compostable plates."
+    },
+    {
+      "category": "Volunteer Kits, PA System & Sponsor Banners",
+      "allocated_amount": 36000.0,
+      "percentage": 18.0,
+      "notes": "Volunteer badges/hydration, public address audio, and sponsor backdrops."
+    },
+    {
+      "category": "Waste Segregation & Post-Event Cleanup",
+      "allocated_amount": 28000.0,
+      "percentage": 14.0,
+      "notes": "Color-coded recycling bins, sanitation crew, and green waste composting."
+    }
+  ],
+  "timeline": [
+    {
+      "stage": "6 months out",
+      "days_before": 180,
+      "tasks": [
+        "Form the core organizing committee and define community goals.",
+        "Identify public park or community hall and check municipal permit lead times.",
+        "Draft sponsorship tiers for local businesses and civic partners."
+      ]
+    },
+    {
+      "stage": "3 months out",
+      "days_before": 90,
+      "tasks": [
+        "Submit applications for municipal venue, loudspeaker, and safety permits.",
+        "Launch volunteer recruitment drive with clear shift roles.",
+        "Confirm anchor sponsors and community showcase stalls."
+      ]
+    },
+    {
+      "stage": "1 month out",
+      "days_before": 30,
+      "tasks": [
+        "Verify accessibility routes: wheelchair ramps, tactile signage, and rest seating.",
+        "Book first-aid medical team, security marshals, and waste cleanup crew.",
+        "Distribute multilingual community flyers and digital registration links."
+      ]
+    },
+    {
+      "stage": "2 weeks out",
+      "days_before": 14,
+      "tasks": [
+        "Finalize site map showing exits, first aid, water stations, and sponsor stalls.",
+        "Conduct volunteer orientation on crowd safety, accessibility, and waste sorting.",
+        "Confirm PA system, stage lighting, and backup power generator."
+      ]
+    },
+    {
+      "stage": "1 week out",
+      "days_before": 7,
+      "tasks": [
+        "Verify all municipal permits are printed and stored in the site binder.",
+        "Reconfirm delivery times with tent, audio, catering, and sanitation vendors.",
+        "Prepare volunteer ID badges, emergency contact boards, and signage."
+      ]
+    },
+    {
+      "stage": "1 day out",
+      "days_before": 1,
+      "tasks": [
+        "Mark stall layouts, wheelchair pathways, and emergency exits on site.",
+        "Install waste segregation stations (wet, dry, recyclable) across the venue.",
+        "Test public address system and conduct safety walkthrough with marshals."
+      ]
+    },
+    {
+      "stage": "Event day",
+      "days_before": 0,
+      "tasks": [
+        "Brief volunteers on morning shifts, safety protocols, and accessibility assistance.",
+        "Welcome sponsors, community performers, and attendees at the help desk.",
+        "Execute full site cleanup, waste handover, and venue inspection after closing."
+      ]
+    }
+  ],
+  "vendor_checklist": [
+    {
+      "id": "comm_permits_ground",
+      "vendor_name": "Municipal Ground, Canopies & Permit Liaison",
+      "category": "Permits & Venue",
+      "estimated_cost": 50000.0,
+      "priority": "High",
+      "notes": "Secure written municipal, traffic, and sound permits in advance."
+    },
+    {
+      "id": "comm_safety_access",
+      "vendor_name": "First-Aid Responder Team & Accessibility Ramps",
+      "category": "Safety & Accessibility",
+      "estimated_cost": 40000.0,
+      "priority": "High",
+      "notes": "Include shaded senior seating, accessible restrooms, and fire safety gear."
+    },
+    {
+      "id": "comm_refreshments",
+      "vendor_name": "Community Food Stalls & Hydration Provider",
+      "category": "Refreshments",
+      "estimated_cost": 46000.0,
+      "priority": "Medium",
+      "notes": "Use reusable or biodegradable tableware only."
+    },
+    {
+      "id": "comm_av_sponsors",
+      "vendor_name": "PA Audio System & Sponsor Signage Printer",
+      "category": "Sponsors & Volunteers",
+      "estimated_cost": 36000.0,
+      "priority": "Medium",
+      "notes": "Include volunteer vests, lanyards, and sponsor recognition boards."
+    },
+    {
+      "id": "comm_cleanup",
+      "vendor_name": "Zero-Waste Sanitation & Cleanup Partner",
+      "category": "Cleanup",
+      "estimated_cost": 28000.0,
+      "priority": "High",
+      "notes": "Ensure post-event waste sorting and clean handover of public grounds."
+    }
+  ],
+  "personalized_ideas": {
+    "decor": [
+      "Upcycled fabric bunting and hand-painted community welcome banners.",
+      "High-contrast, large-print directional signage for accessibility.",
+      "Sponsor appreciation wall integrated with a neighbourhood photo collage."
+    ],
+    "food": [
+      "Local home-chef food stalls featuring regional snacks and millet treats.",
+      "Free refillable drinking water stations to eliminate single-use plastic.",
+      "Clearly labeled allergen-free and kid-friendly snack counter."
+    ],
+    "entertainment": [
+      "Neighbourhood talent showcase featuring local musicians and folk dancers.",
+      "Acoustic storytelling circle and interactive street theatre.",
+      "Community recognition segment thanking volunteers and local sponsors."
+    ],
+    "activities": [
+      "Collaborative community mural where attendees paint a shared canvas.",
+      "Eco-workshop on composting and urban gardening led by volunteers.",
+      "Accessible board-game and craft pavilion for children and seniors."
+    ],
+    "invitation_wording": "Join your neighbours for our Community Fair! Come celebrate local culture, food, music, and togetherness in an inclusive, family-friendly space."
+  }
+}

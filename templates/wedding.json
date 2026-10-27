@@ -1,0 +1,170 @@
+{
+  "event_type": "Wedding",
+  "vibe_theme": "Traditional & Elegant Celebration",
+  "total_budget": 500000.0,
+  "guest_count": 200,
+  "city": "Chennai",
+  "event_summary": "A comprehensive wedding plan covering auspicious ceremonies, venue management, multi-course catering, and candid photography tailored to your celebration.",
+  "budget_allocations": [
+    {
+      "category": "Venue & Mandap Setup",
+      "allocated_amount": 150000.0,
+      "percentage": 30.0,
+      "notes": "Main hall rental, ceremony mandap, seating, and power backup."
+    },
+    {
+      "category": "Catering & Feast",
+      "allocated_amount": 160000.0,
+      "percentage": 32.0,
+      "notes": "Welcome drinks, traditional feast, live counters, and dessert station."
+    },
+    {
+      "category": "Photography & Videography",
+      "allocated_amount": 75000.0,
+      "percentage": 15.0,
+      "notes": "Candid photography, traditional video coverage, and highlight reel."
+    },
+    {
+      "category": "Ceremonies & Floral Decor",
+      "allocated_amount": 65000.0,
+      "percentage": 13.0,
+      "notes": "Fresh floral garlands, ritual essentials, officiating priest, and stage decor."
+    },
+    {
+      "category": "Music, Attire & Miscellaneous",
+      "allocated_amount": 50000.0,
+      "percentage": 10.0,
+      "notes": "Nadaswaram/live ensemble, guest welcome kits, and contingency buffer."
+    }
+  ],
+  "timeline": [
+    {
+      "stage": "6 months out",
+      "days_before": 180,
+      "tasks": [
+        "Finalize ceremony dates, auspicious timings, and guest count.",
+        "Book the wedding venue and confirm hall accessibility.",
+        "Shortlist and book photography and videography teams."
+      ]
+    },
+    {
+      "stage": "3 months out",
+      "days_before": 90,
+      "tasks": [
+        "Confirm catering menu and schedule a food tasting session.",
+        "Book ceremony officiant and list all ritual materials needed.",
+        "Finalize floral and stage decor mood boards aligned with your theme."
+      ]
+    },
+    {
+      "stage": "1 month out",
+      "days_before": 30,
+      "tasks": [
+        "Send digital and printed invitations and open RSVP tracking.",
+        "Confirm acoustic or live music performers for ceremonies and reception.",
+        "Arrange guest accommodation and local transport shuttle."
+      ]
+    },
+    {
+      "stage": "2 weeks out",
+      "days_before": 14,
+      "tasks": [
+        "Share final headcount and dietary restrictions with the caterer.",
+        "Conduct timeline walkthrough with venue manager and photographers.",
+        "Prepare ceremony ritual trays, garlands, and return gifts."
+      ]
+    },
+    {
+      "stage": "1 week out",
+      "days_before": 7,
+      "tasks": [
+        "Reconfirm arrival times with all vendors and share contact sheet.",
+        "Prepare final vendor payment envelopes and digital transfer schedules.",
+        "Assign family coordinators for guest hospitality and stage flow."
+      ]
+    },
+    {
+      "stage": "1 day out",
+      "days_before": 1,
+      "tasks": [
+        "Inspect venue decor setup, lighting, and sound checks.",
+        "Deliver ceremony items and welcome signage to the venue.",
+        "Brief wedding party on ceremony sequence and photo session slots."
+      ]
+    },
+    {
+      "stage": "Event day",
+      "days_before": 0,
+      "tasks": [
+        "Coordinate morning ceremony rituals and priest requirements.",
+        "Monitor catering service flow and guest seating comfort.",
+        "Complete family portrait sessions and settle final vendor sign-offs."
+      ]
+    }
+  ],
+  "vendor_checklist": [
+    {
+      "id": "wed_venue",
+      "vendor_name": "Banquet Hall & Mandap Venue",
+      "category": "Venue",
+      "estimated_cost": 150000.0,
+      "priority": "High",
+      "notes": "Verify air conditioning, dressing rooms, parking, and generator backup."
+    },
+    {
+      "id": "wed_catering",
+      "vendor_name": "Full-Service Wedding Caterer",
+      "category": "Catering",
+      "estimated_cost": 160000.0,
+      "priority": "High",
+      "notes": "Confirm per-plate pricing, banana leaf or buffet service, and staff ratio."
+    },
+    {
+      "id": "wed_photo",
+      "vendor_name": "Candid Photography & Cinema Studio",
+      "category": "Photography",
+      "estimated_cost": 75000.0,
+      "priority": "High",
+      "notes": "Include raw footage delivery, album prints, and drone permissions."
+    },
+    {
+      "id": "wed_ceremony_decor",
+      "vendor_name": "Ceremony Officiant & Floral Decorator",
+      "category": "Ceremonies",
+      "estimated_cost": 65000.0,
+      "priority": "Medium",
+      "notes": "Include varmala garlands, stage backdrop, and entrance arch."
+    },
+    {
+      "id": "wed_music",
+      "vendor_name": "Live Instrumental Ensemble & Sound System",
+      "category": "Entertainment",
+      "estimated_cost": 50000.0,
+      "priority": "Medium",
+      "notes": "Coordinate volume levels during key vows and dining hours."
+    }
+  ],
+  "personalized_ideas": {
+    "decor": [
+      "Brass lamps with jasmine and marigold drapes framing the ceremony mandap.",
+      "Illustrated timeline welcome board sharing the couple's story at the entrance.",
+      "Warm amber uplighting with sustainable banana-stem and lotus centerpieces."
+    ],
+    "food": [
+      "Filter coffee and infused rose-milk welcome bar on arrival.",
+      "Regional specialty feast featuring live artisan dosa and sweet counters.",
+      "Custom mithai boxes with cardamom and pistachio treats for guests."
+    ],
+    "entertainment": [
+      "Classical instrumental fusion during the morning ceremony.",
+      "Curated acoustic medley during the couple's reception entry.",
+      "Interactive photo booth with themed cultural props and instant prints."
+    ],
+    "activities": [
+      "Blessing tree where guests hang handwritten notes for the couple.",
+      "Guided trivia game about the couple during the reception.",
+      "Dedicated elders' lounge with comfortable seating and table service."
+    ],
+    "invitation_wording": "With joyful hearts and the blessings of our families, we invite you to celebrate our wedding ceremonies and festive feast as we begin our new journey together."
+  }
+}
